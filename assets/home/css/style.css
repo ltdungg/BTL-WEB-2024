@@ -1,0 +1,365 @@
+input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: #CCC;
+}
+ul {
+    list-style-type: none;
+}
+button {
+    background-color: #ff9500;
+    border-radius: 5px;
+    border: 0px solid;
+}
+
+*:focus {
+    outline: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {   
+    background-color: #ffba00;
+    height: 60px;
+    justify-content: space-evenly;
+}
+.nav__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav__list li {
+    padding: 0px 15px;
+
+}
+
+.nav__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0,0, 0.3);
+}
+.nav__link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav__bars_mobile {
+    margin: 0 30px;
+}
+
+
+.nav__bars_mobile i {
+    color: white;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
+.nav__mobile_search_icon {
+    margin-right: 3rem;
+}
+
+.logo {
+    height: 50px;
+    width: 180px;
+}
+
+.content {
+    box-shadow: 1px 1px 15px rgb(228, 227, 227);
+    border-radius: 5px;
+    background-color: white;
+}
+
+section {
+    padding-top: 4rem;
+    background-image: url("https://cdn.chotot.com/raw/AW6H59tc8QqUC40zln-2UPjGTZacD1bURdV9nQu7K1c/preset:raw/plain/2a2a6dc5fba4c4174216f80606d48c7f-2899887138515828676.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.search-bar {
+    display: inline-flex;
+    width: 35vw;
+    height: 35px;
+    background-color: white;
+    border-radius: 3px;
+    align-items: center;
+} 
+
+.search-bar form {
+    display: inline-flex;
+    align-items: center;
+}
+
+.search-form {
+    margin-left: 5px;
+    color: black;
+    width: 32vw;
+}
+
+.search-button {
+    margin-right: 2px;
+    color: white;
+    width: 40px;
+    height: 30px;
+}
+
+.nav__bars_mobile {
+    display: none;
+}
+
+
+
+.dropdown-menu {
+    box-shadow: 3px 3px 5px 1px rgb(184, 182, 182);
+}
+
+.sellcar {
+    width: 10vw;
+    height: 40px;
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+}
+
+.c-list {
+    width: 100%;
+    height: 250px;
+    min-width: 880px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.carousel-indicators button.active {
+    background-color: #ff9500;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.category img {
+    background-color: #CCC;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+    margin-bottom: 5px;
+
+}
+
+.category img:hover {
+    background-color: #ffba00;
+    border: 10px solid #ffba00;
+}
+
+.category h3 {
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+}
+
+.five-good {
+    background-image: url("https://static.chotot.com/storage/trusted_inventory/bg_inspected_desktop.png");
+    background-size: cover;
+    background-position: 100%;
+}
+
+.fa-circle-info {
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.relative-container {
+    display: relative;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.criteria {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    min-width: max-content;
+    font-size: 14px;
+}
+
+.criteria img {
+    margin-top: -13px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+    position: relative;
+}
+
+footer {
+    background-color: white;
+    border-top: 10px solid #e9e3e3;
+    padding: 10px;
+}
+
+.card-body * {
+    align-items: center;
+    font-size: 14px;
+}
+
+.car:hover {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 2px rgb(184, 182, 182);
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    cursor: pointer;
+    white-space: no-warp;
+    gap: 10px;
+}
+
+
+.slide-button {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 50%;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 2px rgb(184, 182, 182);
+}
+
+.slide-button:hover {
+    height: 40px;
+    width: 40px;
+}
+
+.car {
+    margin-bottom: 20px;
+}
+
+.prev-btn, .brand-prev-btn {
+    left: 0;
+    display: none;
+    margin-top: -50px;
+    margin-left: 2px;
+}
+  
+.next-btn, .brand-next-btn {
+    right: 0;
+    margin-top: -50px;
+    margin-right: 2px;
+}
+
+.prev-btn svg {
+    margin-top: -3px;
+    margin-left: -2px;
+}
+.next-btn svg {
+    margin-top: -3px;
+    margin-right: -2px;
+}
+
+.watch-more {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    border: 2px solid #CCC;
+    font-weight: bold;
+}
+
+.brand-card {
+    margin: 10px 10px;
+    width: 300px;
+    height: 325px;
+    border: 2px solid #d5d5d5;
+    border-radius: 5px;
+}
+
+.brand-logo {
+    object-fit: fill;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #d5d5d5;
+}
+.brand-container {
+    position: relative;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    cursor: pointer;
+    white-space: no-warp;
+    margin-left: -25px;
+
+}
+
+.brand-logo-card {
+    padding-top: 15px;
+    padding-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.brand-logo-card p {
+    font-size: 14px;
+}
+
+.brand-banner img {
+    width: 100%;
+}
+
+.brand-vehicle {
+    display: inline-flex;
+    gap: 12px;
+}
+
+.vehicle-product {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 2px;
+    width: 84px;
+    height: 125px;
+}
+
+.sales-label {
+    position: absolute;
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #e2dfdf;
+    padding-left: 5px;
+    width: 35px;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    margin-right: -10px;
+    margin-top: -5px;
+}
