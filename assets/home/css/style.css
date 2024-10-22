@@ -80,7 +80,7 @@ button {
 
 section {
     padding-top: 4rem;
-    background-image: url("https://cdn.chotot.com/raw/AW6H59tc8QqUC40zln-2UPjGTZacD1bURdV9nQu7K1c/preset:raw/plain/2a2a6dc5fba4c4174216f80606d48c7f-2899887138515828676.jpg");
+    background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -118,11 +118,6 @@ section {
     display: none;
 }
 
-
-
-.dropdown-menu {
-    box-shadow: 3px 3px 5px 1px rgb(184, 182, 182);
-}
 
 .sellcar {
     width: 10vw;
@@ -352,14 +347,64 @@ footer {
 .sales-label {
     position: absolute;
     color: red;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: bold;
     background-color: #e2dfdf;
     padding-left: 5px;
-    width: 35px;
+    width: 28px;
     border-radius: 5px;
     top: 0;
     right: 0;
-    margin-right: -10px;
+    margin-right: 8px;
     margin-top: -5px;
+}
+
+.nav__list li {
+    cursor: pointer;
+}
+
+.dropdown {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-select:hover {
+    color: #565555;
+}
+
+
+.dropdown__list {
+    position: absolute;
+    margin-top: 10px;
+    width: 250%;
+    display: none;
+    padding-left: 0px;
+    margin-left: -25px;
+}
+
+
+.dropdown:hover .dropdown__list {
+    display: block;
+}
+
+.dropdown__item img {
+    width: 25px;
+    height: 25px;
+}
+
+.dropdown__item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    gap: 15px;
+}
+
+.dropdown__item a {
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown__item:hover {
+    background-color: rgb(243, 243, 243);
 }
