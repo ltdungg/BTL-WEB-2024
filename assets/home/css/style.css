@@ -209,12 +209,6 @@ section {
     position: relative;
 }
 
-footer {
-    background-color: white;
-    border-top: 10px solid #e9e3e3;
-    padding: 10px;
-}
-
 .card-body * {
     align-items: center;
     font-size: 14px;
@@ -235,6 +229,22 @@ footer {
     gap: 10px;
 }
 
+.card-img-top {
+    height: 150px;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 0;
+}
+
+.text-1 {
+    transform: translateY(-150%);
+}
+
+.text-2 {
+    transform: translateY(-70%);
+}
 
 .slide-button {
     position: absolute;
@@ -329,6 +339,7 @@ footer {
 
 .brand-banner img {
     width: 100%;
+    margin-bottom: 5px;
 }
 
 .brand-vehicle {
@@ -344,12 +355,18 @@ footer {
     height: 125px;
 }
 
+.vehicle-product p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .sales-label {
     position: absolute;
     color: red;
     font-size: 8px;
     font-weight: bold;
-    background-color: #e2dfdf;
+    background-color: #fddddd;
     padding-left: 5px;
     width: 28px;
     border-radius: 5px;
@@ -413,21 +430,6 @@ section {
     padding-bottom: 50px;
 }
 
-.footer__content {
-    margin-top: 20px;
-}
-
-.footer__content h6 {
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.footer__content p {
-    font-size: 14px;
-    margin-bottom: 15px;
-    color: #424242;
-}
-
 .lien-ket svg {
     margin: 10px 10px 20px 0px;
     cursor: pointer;
@@ -483,6 +485,168 @@ section {
     margin-bottom: 10px;
 }
 
-footer p {
-    cursor: pointer;
+
+.newest_list {
+    margin: 10px 0px;
+    display: flex;
+    overflow: hidden;
+}
+
+.newest_item {
+    width: 200px;
+    height: 240px;
+    background-color: white;
+    border-radius: 7px;
+    margin-right: 20px;
+    color: black;
+    display: relative;
+}
+
+.newest_img {
+    width: 200px;
+    height: 123px;
+    border-radius: 10px;
+}
+
+.newest_item * {
+    display: flex;
+    justify-content: center;
+}
+
+.newest_box {
+    display: block;
+    background-color: #f4f4f4;
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.newest_brand {
+    color: #8a8a8a;
+    margin: 0;
+}
+
+.newest_name {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.newest_price_label {
+    margin: 15px 0px 0px -110px;
+    font-size: 12px;
+    color: #929292;
+    
+}
+
+.newest_price_price {
+    margin: 0px 0px 0px -25px;
+    font-weight: 600;
+}
+
+
+/* Footer */
+.footer {
+    background-color: rgb(27, 41, 53);
+    color: white;
+    padding: 70px 100px;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 12px;
+}
+
+.footer h3 {
+    color: #6A7077;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0 0 24px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 16px;
+}
+
+.footer-address {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+
+.footer-address h2 {
+    margin-bottom: 20px;
+}
+.footer-address p {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.footer-bottom-copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: #8a8a8a;
+}
+
+.footer-subscribe {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-subscribe h3 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.footer-subscribe input {
+    width: 20vw;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+
+.footer-subscribe button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-subscribe button:hover {
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    color: white;
+}
+
+#error-message {
+    color: red;
+    margin-top: 5px;
+    
 }
