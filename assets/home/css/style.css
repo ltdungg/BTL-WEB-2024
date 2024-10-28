@@ -543,6 +543,83 @@ section {
     font-weight: 600;
 }
 
+/* Message box */
+
+.contact-us {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    top: 90%;
+    right: 0;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.message__box_contact {
+    padding: 15px;
+    position: fixed;
+    top: 30%;
+    transform: translateX(100%);
+    width: 560px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: #fff7ea;
+    display: none;
+}
+
+.message__box_contact h4 {
+    color: #fe9900;
+}
+
+.message__box_contact p {
+    margin-top: 15px;
+}
+
+.message__box_contact input {
+    background-color: white;
+    margin-right: 15px;
+    width: 245px;
+    height: 50px;
+    border-color: #929292;
+    border-width: 2px;
+    color: black;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.message__box_overlay {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0,0, 0.3);
+    display: none;
+}
+
+.message__box_contact .send-contact {
+    width: 510px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.message__box_contact .x-close {
+    position: fixed;
+    top: 10%;
+    right: 4%;
+    cursor: pointer;
+
+}
+
+.message__box_error {
+    color: red;
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    margin-left: -15px;
+    margin-bottom: 5px;
+}
 
 /* Footer */
 .footer {

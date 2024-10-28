@@ -69,7 +69,7 @@
                     <i class="fa-regular fa-user" style="font-size: 1.2rem;"></i> Tài khoản
                 </li>
                 <li>
-                    <button class="sellcar">BÁN XE</button>
+                    <a href="./banxe.html"><button class="sellcar">BÁN XE</button></a>
                 </li>
             </ul>
         </nav>
@@ -555,6 +555,22 @@
         <p>Hoặc nếu bạn đang sở hữu một chiếc xe đã qua sử dụng và cần bán lại, đừng ngần ngại đăng tin ngay để tiếp cận với hàng trăm nghìn khách hàng tiềm năng.</p>
         <p>Chúc bạn có những trải nghiệm mua bán xe cũ và mới tuyệt vời trên Chợ Tốt Xe!</p>
       </div>
+      <div class="message__box">
+          <button class="contact-us"><i class="fa-brands fa-facebook-messenger fa-2x" style="color: white"></i></button>
+          <div class="message__box_overlay"></div>
+          <div class="message__box_contact">
+            <h4>Bạn cần được tư vấn</h4>
+            <p>Để lại số điện thoại để người bán có thể tư vấn kỹ hơn cho bạn sau nhé.</p>
+            <form action="">
+              <input type="text" name="full-name" id="full-name" placeholder="Họ và tên">
+              <input type="text" name="phone" id="phone" placeholder="Số điện thoại">
+            </form>
+            <div class="message__box_error"></div>
+            <button class="send-contact" onclick="required()">ĐỂ LẠI LIÊN HỆ</button>
+            <div class="x-close"><i class="fa-solid fa-x"></i></div>
+            
+          </div>
+      </div>
     </section>
     <footer>
       <div class="container-fluid footer">
@@ -626,6 +642,5 @@
     </footer>
     <script src="./assets/home/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./assets/home/js/validate.js"></script>
 </body>
 </html>

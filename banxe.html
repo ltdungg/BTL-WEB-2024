@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chợ xe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/banxe/css/style.css">
+    <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/banxe/css/responsive.css">
+
+</head>
+<body>
+    <header>
+        <div class="container-fluid navbar fixed-top">
+          <nav class="navbar_pc">
+              <ul class="nav__list">
+                  <li>
+                      <a href="" class="nav__link">
+                          <img class="logo" src="./assets/home/img/logo.png" alt="logo">
+                      </a>
+                  </li>
+                  <li>
+                      <div class="dropdown">
+                        <div class="dropdown-select">
+                          <i class="fa-solid fa-list-ul"></i>
+                          Danh mục
+                          <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <ul class="dropdown__list">
+                          <li class="dropdown__item">
+                            <img src="./assets/home/img/category/car.svg" alt="">
+                            <a href="#">Ô tô</a>
+                          </li>
+                          <li class="dropdown__item">
+                            <img src="./assets/home/img/category/xe-may.svg" alt="">
+                            <a href="#">Xe máy</a>
+                          </li>
+                          <li class="dropdown__item">
+                            <img src="./assets/home/img/category/xe-tai.svg" alt="">
+                            <a href="#">Xe tải, xe ben</a>
+                          </li>
+                          <li class="dropdown__item">
+                            <img src="./assets/home/img/category/xe-dien.svg" alt="">
+                            <a href="#">Xe điện</a>
+                          </li>
+                          <li class="dropdown__item">
+                            <img src="./assets/home/img/category/xe-dap.svg" alt="">
+                            <a href="#">Xe đạp</a>
+                          </li>
+                          <li class="dropdown__item">
+                            <img src="./assets/home/img/category/phuong-tien-khac.svg" alt="">
+                            <a href="#">Phương tiện khác</a>
+                          </li>
+                        </ul>
+                      </div>
+                      
+                  </li>
+                  <li >
+                      <form class="search-bar">
+                          <input class="search-form" type="search" placeholder="Tìm kiếm xe trên Chợ Tốt xe" aria-label="Search">
+                          <button class="search-button" submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                  </li>
+                  <li>
+                      <i class="fa-sharp fa-regular fa-bell" style="font-size: 1.3rem; margin-top: 5px;"></i>
+                  </li>
+                  <li>
+                      <i class="fa-regular fa-user" style="font-size: 1.2rem;"></i> Tài khoản
+                  </li>
+                  <li>
+                      <button class="sellcar">BÁN XE</button>
+                  </li>
+              </ul>
+          </nav>
+  
+          <div class="nav__bars_mobile">
+            <a href="" class="nav__link">
+              <img class="logo" src="./assets/home/img/logo.png" alt="logo">
+            </a>
+            <i class="fa-solid fa-magnifying-glass fa-2x nav__mobile_search_icon"></i>
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+          
+          <!-- <div class="nav__overlay"></div> -->
+  
+          <nav class="nav__mobile">
+            <ul class="nav__mobile_list">
+              <li class="nav_mobile_link"></li>
+              <li class="nav_mobile_link"></li>
+              <li class="nav_mobile_link"></li>
+              <li class="nav_mobile_link"></li>
+            </ul>
+          </nav>
+  
+      </div>
+      </header>
+      <section>
+        <div id="header">
+          
+            <div class="nav__bars_mobile">
+              <a href="" class="nav__link">
+                <img class="logo" src="./assets/banxe/img/logo.png" alt="logo">
+              </a>
+              <i class="fa-solid fa-magnifying-glass fa-2x nav__mobile_search_icon"></i>
+              <i class="fa-solid fa-bars fa-2x"></i>
+            </div>
+        <div id="slider">
+      <div class="text-content">
+              <div class="text-heading">
+                  <h1>Bán xe của bạn với chỉ với <i style="color: #D71925;">3 phút</i></h1>
+                  <div class="text-description">Với lượng tin mua bán ô tô vượt trội, chất lượng và giá xe luôn được <br> chúng tôi đặt lên hàng đầu.</div>
+              </div>
+      </div>
+  </div>
+  <div class="block14-nav">
+    <h2>Bạn đang muốn bán phương tiện gì?</h2>
+    <input hidden class="info_phuong_tien field_loai_phuong_tien" forfield="loai_phuong_tien" value="1" />
+    <ul class="block14-tab">
+        <li>
+            <a href="#" phuongtienid="1">
+                <img src="/assets/banxe/img/category/car.svg">
+                <span>Xe ô tô con</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" phuongtienid="2">
+                <img src="/assets/banxe/img/category/car.svg">
+                <span>Xe ô tô tải</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" phuongtienid="3">
+                <img src="/assets/banxe/img/category/car.svg">
+                <span>Xe máy</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" phuongtienid="4">
+                <img src="/assets/banxe/img/category/car.svg">
+                <span>Phương tiện khác </span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div id="content">
+
+<form action="" class="form" id="form-1">
+    <h3 class="heading">Đăng kí tư vấn</h3>        
+    <div class="spacer"></div>
+
+    <div class="form-group">
+      <label for="fullname" class="form-label">Họ Tên</label>
+      <input id="fullname" name="fullname" type="text" placeholder="Full Name" class="form-control">
+      <span class="form-message"></span>
+    </div>
+
+    <div class="form-group">
+      <label for="phone" class="form-label">Số Điện Thoại</label>
+      <input id="phone" name="phone" type="number" placeholder="+084" class="form-control">
+      <span class="form-message"></span>
+    </div>
+
+    <div class="form-group">
+      <label for="email" class="form-label">Email</label>
+      <input id="email" name="email" type="email" placeholder="123@gmail.com" class="form-control">
+      <span class="form-message"></span>
+    </div>
+
+    <div class="form-group">
+      <label for="note" class="form-label">Ghi Chú</label>
+      <input id="note" name="note" placeholder="Mẫu xe,tình trạng...vv" type="text" class="form-control">
+      <span class="form-message"></span>
+    </div>
+    
+    <button onclick="login()" class="form-submit">Đăng ký
+        
+    </button>
+
+  </form>    
+
+</div>
+
+<div class="block9" bis_skin_checked="1">
+<div class="container" bis_skin_checked="1">
+    <div class="block9-heading" bis_skin_checked="1">
+        <h2 class="title">Bán xe dễ dàng chỉ với <i style="color: #ffba00;">3 bước</i></h2>
+    </div>
+    <div class="block9-content" bis_skin_checked="1">
+
+
+<div role="tabpanel" class="tab-pane " id="block9-2" bis_skin_checked="1">
+<div class="block9-items" bis_skin_checked="1">
+<div class="block9-item" style="width: 33%" bis_skin_checked="1">
+    <div class="block9-item-info" bis_skin_checked="1">
+        <div class="block9-item-photo" bis_skin_checked="1">
+            <img src="/assets/banxe/img/1.png" alt="">
+        </div>
+        <div class="block9-item-detail" bis_skin_checked="1">
+            <div class="block9-item-number" bis_skin_checked="1">1</div>
+            <h3 class="block9-item-title">Chọn loại xe muốn bán</h3>
+            <div class="block9-item-des" bis_skin_checked="1">
+                Đa dạng lựa chọn bán các loại xe ô tô con, xe tải, xe máy và các phương tiện khác từ cũ cho đến mới.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block9-item" style="width: 33%" bis_skin_checked="1">
+    <div class="block9-item-info" bis_skin_checked="1">
+        <div class="block9-item-photo" bis_skin_checked="1">
+            <img src="/assets/banxe/img/2.jpg">
+        </div>
+        <div class="block9-item-detail" bis_skin_checked="1">
+            <div class="block9-item-number" bis_skin_checked="1">2</div>
+            <h3 class="block9-item-title">Chọn hình thức bán phù hợp</h3>
+            <div class="block9-item-des" bis_skin_checked="1">
+                Bán tự do - hình thức rao bán hoàn toàn miễn phí và tiện lợi. Bán nhanh - hình thức rao bán có phí, dành cho người cần bán xe
+                gấp.
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block9-item" style="width: 33%" bis_skin_checked="1">
+    <div class="block9-item-info" bis_skin_checked="1">
+        <div class="block9-item-photo" bis_skin_checked="1">
+            <img src="/assets/banxe/img/3.jpg">
+        </div>
+        <div class="block9-item-detail" bis_skin_checked="1">
+            <div class="block9-item-number" bis_skin_checked="1">3</div>
+            <h3 class="block9-item-title">Nhập thông tin phương tiện</h3>
+            <div class="block9-item-des" bis_skin_checked="1">
+                Hệ thống Big Data của Chotot giúp người bán đăng tin nhanh gọn và chính xác nhất chỉ trong thời gian chưa đến 3 phút.</div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+    </div>
+</div>
+</div>
+
+<div class="block16">
+<div class="container">
+    <div class="block16-heading">Cam kết với khách hàng</div>
+    <div class="panel-group block16-panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="panel block16-panel"> <a class="block16-panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+    href="#block16-panel1" aria-expanded="true"> 01. Liên hệ <span style="color: #ffba00;">Chăm sóc khách hàng</span> dễ dàng </a>
+
+</div>
+<div class="panel block16-panel"> <a class="block16-panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+    href="#block16-panel2" aria-expanded="true"> 02. <span style="color: #ffba00;">Không hạn chế thời gian</span> trao đổi với các bạn
+    tổng đài viên </a>
+
+</div>
+<div class="panel block16-panel"> <a class="block16-panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+    href="#block16-panel3" aria-expanded="true"> 03. <span style="color: #ffba00;">Quy trình nhanh chóng</span> và dễ dàng! </a>
+
+</div>
+<div class="panel block16-panel"> <a class="block16-panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+    href="#block16-panel4" aria-expanded="true"> 04. Dịch vụ dành cho chủ xe hoạt động <span style="color: #ffba00;">13,5h/1 ngày và 7
+        ngày/1 tuần</span> </a>
+
+</div>
+<div class="panel block16-panel"> <a class="block16-panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+    href="#block16-panel5" aria-expanded="true"> 05. Tư vấn <span style="color: #ffba00;">mua bán, đấu giá phù hợp</span> với xe của bạn
+</a>
+
+</div>
+<div class="panel block16-panel"> <a class="block16-panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+    href="#block16-panel6" aria-expanded="true"> 06. Kiểm tra xe cẩn thận với đội ngũ kỹ thuật viên <span style="color: #ffba00;">được đào
+        tạo bài bản</span> </a>
+
+</div>
+<div class="panel block16-panel"> <a class="block16-panel-title collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+    href="#block16-panel7" aria-expanded="true"> 07. Quy trình <span style="color: #ffba00;">thanh toán dễ dàng</span>, đảm bảo an toàn
+</a>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container-fluid footer">
+<div class="row">
+<div class="col-sm-6 footer-address">
+<h2>CÔNG TY TNHH 3 THÀNH VIÊN UTC</h2>
+<p>Địa chỉ: Số 3 Đường Cầu Giấy Hà Nội</p>
+<p>Email: <a href="mailto:>aaa@utc.vn">aaa@utc.vn</a></p>
+<p>Số điện thoại: <a href="tel:0912269166">0912269166</a></p>
+<p>Mã số doanh nghiệp: 0100110100. Ngày cấp: 01/01/2024. Nơi cấp: SKH &amp; ĐT TP. Hà Nội</p>
+<div class="footer-social" bis_skin_checked="1">
+  <span>
+      Theo dõi chúng tôi qua
+      <i class="ti-facebook"></i>
+      <i class="ti-youtube"></i>
+      <i class="ti-twitter"></i>
+  </span>
+  <a href="#" class="social-link social-link-facebook"></a>
+  <a href="#" class="social-link social-link-youtube"></a>
+</div>
+
+</div>
+<div class="col-sm-2">
+<h3>Hỗ trợ khách hàng</h3>
+        <div>
+            <ul>
+                        <li><a href="#">Tôi là người Bán</a></li>
+                        <li><a href="#">Tôi là người Mua</a></li>
+                        <li><a href="#">Quy định cần biết</a></li>
+                        <li><a href="#">Liên hệ hỗ trợ</a></li>
+                        <li><a href="#">Câu hỏi thường gặp</a></li>
+            </ul>
+        </div>
+</div>
+<div class="col-sm-2">
+<h3>Dịch vụ</h3>
+        <div>
+            <ul>
+                        <li><a href="#">Kiểm định</a></li>
+                        <li><a href="#">Đăng kiểm</a></li>
+                        <li><a href="#">Hoàn cải xe</a></li>
+                        <li><a href="#">Rút hồ sơ xe</a></li>
+                        <li><a href="#">Bảo hiểm</a></li>
+                        <li><a href="#">Tín dụng</a></li>
+            </ul>
+        </div>
+</div>
+<div class="col-sm-2">
+<h3>Tin tức &amp; Tư vấn</h3>
+        <div>
+            <ul>
+                        <li><a href="#">Tin công nghệ</a></li>
+                        <li><a href="#">Bảng giá xe ô tô</a></li>
+                        <li><a href="#">Tin khuyến mại</a></li>
+            </ul>
+        </div>
+</div>
+</div>
+<div class="footer-subscribe">
+<h3>Đăng ký nhận những tin tức mới nhất của chúng tôi</h3>
+<form action="">
+<input type="email" placeholder="Địa chỉ email" class="subcribe-email">
+<button type="submit" onclick="emailValidate()">Đăng ký</button>
+</form>
+<p id="error-message"></p>
+</div>
+<div class="footer-bottom-copyright"> Copyright © 2024 Chotot. All rights reserved</div>
+</div>
+</footer>
+</div>
+      </section>
+    <script src="./assets/banxe/js/script.js"></script>
+</body>
+</html>
