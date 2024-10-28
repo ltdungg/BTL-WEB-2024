@@ -76,6 +76,7 @@ html {
 }
 
 .content {
+    margin: 0 auto;
     box-shadow: 1px 1px 15px rgb(228, 227, 227);
     border-radius: 5px;
     background-color: white;
@@ -191,9 +192,9 @@ section {
 }    
 #slider .text-content {
     position: absolute;
-    top: 120px;
-    left: 20%;
-    transform: translateX(30px);
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     font-weight: 600;
 }
@@ -296,7 +297,7 @@ p {
     text-align: center;
     background: #ffffff;
     border-radius: 4px;
-    margin: 140px;
+    margin: 0 auto;
     align-self: center;
     box-shadow: 0 2px 5px 0 rgba(51, 62, 73, .1);
 }
@@ -449,6 +450,8 @@ input {
 .block16 {
     background-color: #FAFAFA;
     padding: 56px 0;
+    margin: 0 auto;
+    width: 80vw;
 }
 .block16-heading {
     text-align: center;
@@ -463,8 +466,6 @@ input {
     display: inline-block;
     font-weight: 500;
     font-size: 30px;
-    line-height: 20px;
-    text-align: center;
     text-decoration: none;
     
 }
