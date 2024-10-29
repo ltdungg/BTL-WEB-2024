@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ô tô</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/dsachoto/style.css">
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./assets/home/css/style.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="./assets/home/css/responsive.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container-fluid navbar fixed-top">
+      <nav class="navbar_pc">
+        <ul class="nav__list">
+          <li>
+            <a href="/" class="nav__link">
+              <img class="logo" src="./assets/home/img/logo.png" alt="logo">
+            </a>
+          </li>
+          <li>
+            <div class="dropdown">
+              <div class="dropdown-select">
+                <i class="fa-solid fa-list-ul"></i>
+                Danh mục
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+              <ul class="dropdown__list">
+                <li class="dropdown__item">
+                  <img src="./assets/home/img/category/car.svg" alt="">
+                  <a href="./dsachoto.html">Ô tô</a>
+                </li>
+                <li class="dropdown__item">
+                  <img src="./assets/home/img/category/xe-may.svg" alt="">
+                  <a href="./dsachoto.html">Xe máy</a>
+                </li>
+                <li class="dropdown__item">
+                  <img src="./assets/home/img/category/xe-tai.svg" alt="">
+                  <a href="./dsachoto.html">Xe tải, xe ben</a>
+                </li>
+                <li class="dropdown__item">
+                  <img src="./assets/home/img/category/xe-dien.svg" alt="">
+                  <a href="./dsachoto.html">Xe điện</a>
+                </li>
+                <li class="dropdown__item">
+                  <img src="./assets/home/img/category/xe-dap.svg" alt="">
+                  <a href="./dsachoto.html">Xe đạp</a>
+                </li>
+                <li class="dropdown__item">
+                  <img src="./assets/home/img/category/phuong-tien-khac.svg"
+                    alt="">
+                  <a href="./dsachoto.html">Phương tiện khác</a>
+                </li>
+              </ul>
+            </div>
+
+          </li>
+          <li>
+            <form class="search-bar">
+              <input class="search-form" type="search"
+                placeholder="Tìm kiếm xe trên Chợ Tốt xe" aria-label="Search">
+              <button class="search-button" submit><i
+                  class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </li>
+          <li>
+            <i class="fa-sharp fa-regular fa-bell"
+              style="font-size: 1.3rem; margin-top: 5px;"></i>
+          </li>
+          <li>
+            <i class="fa-regular fa-user" style="font-size: 1.2rem;"></i> Tài
+            khoản
+          </li>
+          <li>
+            <a href="banxe.html"><button class="sellcar">BÁN XE</button></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="nav__bars_mobile">
+        <a href="./index.html" class="nav__link">
+          <img class="logo" src="./assets/home/img/logo.png" alt="logo">
+        </a>
+        <i
+          class="fa-solid fa-magnifying-glass fa-2x nav__mobile_search_icon"></i>
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </div>
+
+      <!-- <div class="nav__overlay"></div> -->
+
+      <nav class="nav__mobile">
+        <ul class="nav__mobile_list">
+          <li class="nav_mobile_link"></li>
+          <li class="nav_mobile_link"></li>
+          <li class="nav_mobile_link"></li>
+          <li class="nav_mobile_link"></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+  <section>
+    <!-- <div class="content container">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel"
+        data-bs-interval="3000">
+
+         
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+            class="active"></button>
+          <button type="button" data-bs-target="#demo"
+            data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo"
+            data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo"
+            data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#demo"
+            data-bs-slide-to="4"></button>
+
+        </div>
+
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/home/img/carousel/1.png" alt=""
+              class="d-block c-list">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/home/img/carousel/2.jpg" alt=""
+              class="d-block c-list">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/home/img/carousel/3.jpg" alt=""
+              class="d-block c-list">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/home/img/carousel/4.jpg" alt=""
+              class="d-block c-list">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/home/img/carousel/5.jpg" alt=""
+              class="d-block c-list">
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="container content mt-3 pt-3 pb-2">
+      <h6>Khám phá danh mục xe cộ</h6>
+      <hr
+        style="width: 100%; border-width: 3px; border-radius: 2px; opacity: 0.1; padding-top: -2px;">
+      <div class="row pt-2">
+        <div class="col-sm-2">
+          
+          <a href="/dsachoto.html" class="category">
+            <img src="./assets/home/img/category/car.svg" alt=""
+              style="height: 50px; width: 50px;">
+            <h3>Ô tô</h3>
+          </a>
+        </div>
+        <div class="col-sm-2">
+          <a href="" class="category">
+            <img src="./assets/home/img/category/xe-may.svg" alt=""
+              style="height: 50px; width: 50px;">
+            <h3>Xe máy</h3>
+          </a>
+        </div>
+        <div class="col-sm-2">
+          <a href="" class="category">
+            <img src="./assets/home/img/category/xe-tai.svg" alt=""
+              style="height: 50px; width: 50px;">
+            <h3>Xe tải, xe ben</h3>
+          </a>
+        </div>
+        <div class="col-sm-2">
+          <a href="" class="category">
+            <img src="./assets/home/img/category/xe-dien.svg" alt=""
+              style="height: 50px; width: 50px;">
+            <h3>Xe điện</h3>
+          </a>
+        </div>
+        <div class="col-sm-2">
+          <a href="" class="category">
+            <img src="./assets/home/img/category/xe-dap.svg" alt=""
+              style="height: 50px; width: 50px;">
+            <h3>Xe đạp</h3>
+          </a>
+        </div>
+        <div class="col-sm-2">
+          <a href="" class="category">
+            <img src="./assets/home/img/category/phuong-tien-khac.svg" alt=""
+              style="height: 50px; width: 50px;">
+            <h3>Phương tiện khác</h3>
+          </a>
+        </div>
+      </div>
+    </div> -->
+    <div class="container content mt-3 pt-3 pb-2 five-good">
+      <div class="flex-container">
+        <h6 style="font-weight: bold;">DANH MỤC Ô TÔ</h6>
+        <i class="fa-solid fa-circle-info"></i>
+      </div>
+      <!-- <div class="row">
+        <div class="col-lg-1 col-md-2 criteria">
+          <img src="./assets/home/img/icon/check-square-svgrepo-com.svg" alt=""
+            style="height: 20px; width:20px;">
+          <p>Pháp lý an toàn</p>
+        </div>
+        <div class="col-lg-1 col-md-2 criteria">
+          <img src="./assets/home/img/icon/check-square-svgrepo-com.svg" alt=""
+            style="height: 20px; width:20px;">
+          <p>Không cháy nổ</p>
+        </div>
+        <div class="col-lg-1 col-md-6 criteria">
+          <img src="./assets/home/img/icon/check-square-svgrepo-com.svg" alt=""
+            style="height: 20px; width:20px;">
+          <p>Không tai nạn</p>
+        </div>
+        <div class="col-lg-1 col-md-2 criteria">
+          <img src="./assets/home/img/icon/check-square-svgrepo-com.svg" alt=""
+            style="height: 20px; width:20px;">
+          <p>Không ngập nước</p>
+        </div>
+        <div class="col-lg-1 col-md-4 criteria">
+          <img src="./assets/home/img/icon/check-square-svgrepo-com.svg" alt=""
+            style="height: 20px; width:20px;">
+          <p>Kiểm tra 207 điểm</p>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- Main container -->
+    <div class="container content mt-3 pt-3 pb-2 mb-2">
+      <div class="custom-container">
+
+        <div class="list1">
+          <span class="new">Xe mới</span>
+          <div class="box1">
+            <img
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Flw_6I-t-HN_4sB_ETf_g1A8nYeNL1TmTQeqB-vSvTbY%2Fpreset%3Alisting%2Fplain%2Fe27f8cd15b99f143cb5c85f278783f8f-2902063257955829163.jpg&w=3840&q=100"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Corolla Cross 2020 1.8V</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <button class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </button>
+            <button class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </button>
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+        <!-- 22222222222222222222 -->
+
+        <div class="list1">
+
+          <div class="box1">
+            <img
+              src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FjYAPH6vL5rxaNE_wd4nrC-bKC51NcEb06bluTUw7BRs%2Fpreset%3Alisting%2Fplain%2Fc4fd00065071c6026612ed1264520703-2878566763948818400.jpg&w=1920&q=75"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Toyota Vios 2019 1.5GT AT</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </div>
+            <div class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </div>
+          </div>
+
+
+        </div>
+        <div class="list1">
+
+          <div class="box1">
+            <img
+              src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FjYAPH6vL5rxaNE_wd4nrC-bKC51NcEb06bluTUw7BRs%2Fpreset%3Alisting%2Fplain%2Fc4fd00065071c6026612ed1264520703-2878566763948818400.jpg&w=1920&q=75"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Toyota Vios 2019 1.5GT AT</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </div>
+            <div class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </div>
+          </div>
+
+
+        </div>
+        <div class="list1">
+          <span class="new">Xe mới</span>
+          <div class="box1">
+            <img
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Flw_6I-t-HN_4sB_ETf_g1A8nYeNL1TmTQeqB-vSvTbY%2Fpreset%3Alisting%2Fplain%2Fe27f8cd15b99f143cb5c85f278783f8f-2902063257955829163.jpg&w=3840&q=100"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Corolla Cross 2020 1.8V</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <button class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </button>
+            <button class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </button>
+          </div>
+
+
+        </div>
+
+
+        <div class="list1">
+
+          <div class="box1">
+            <img
+              src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FjYAPH6vL5rxaNE_wd4nrC-bKC51NcEb06bluTUw7BRs%2Fpreset%3Alisting%2Fplain%2Fc4fd00065071c6026612ed1264520703-2878566763948818400.jpg&w=1920&q=75"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Toyota Vios 2019 1.5GT AT</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </div>
+            <div class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </div>
+          </div>
+
+
+        </div>
+        <div class="list1">
+          <span class="new">Xe mới</span>
+          <div class="box1">
+            <img
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Flw_6I-t-HN_4sB_ETf_g1A8nYeNL1TmTQeqB-vSvTbY%2Fpreset%3Alisting%2Fplain%2Fe27f8cd15b99f143cb5c85f278783f8f-2902063257955829163.jpg&w=3840&q=100"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Corolla Cross 2020 1.8V</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <button class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </button>
+            <button class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </button>
+          </div>
+
+
+        </div>
+        <div class="list1">
+
+          <div class="box1">
+            <img
+              src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FjYAPH6vL5rxaNE_wd4nrC-bKC51NcEb06bluTUw7BRs%2Fpreset%3Alisting%2Fplain%2Fc4fd00065071c6026612ed1264520703-2878566763948818400.jpg&w=1920&q=75"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Toyota Vios 2019 1.5GT AT</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </div>
+            <div class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </div>
+          </div>
+
+
+        </div>
+        <div class="list1">
+          <span class="new">Xe mới</span>
+          <div class="box1">
+            <img
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Flw_6I-t-HN_4sB_ETf_g1A8nYeNL1TmTQeqB-vSvTbY%2Fpreset%3Alisting%2Fplain%2Fe27f8cd15b99f143cb5c85f278783f8f-2902063257955829163.jpg&w=3840&q=100"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Corolla Cross 2020 1.8V</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <button class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </button>
+            <button class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </button>
+          </div>
+
+
+        </div>
+
+
+        <div class="list1">
+
+          <div class="box1">
+            <img
+              src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FjYAPH6vL5rxaNE_wd4nrC-bKC51NcEb06bluTUw7BRs%2Fpreset%3Alisting%2Fplain%2Fc4fd00065071c6026612ed1264520703-2878566763948818400.jpg&w=1920&q=75"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Toyota Vios 2019 1.5GT AT</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </div>
+            <div class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </div>
+          </div>
+
+
+        </div>
+        <div class="list1">
+          <span class="new">Xe mới</span>
+          <div class="box1">
+            <img
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Flw_6I-t-HN_4sB_ETf_g1A8nYeNL1TmTQeqB-vSvTbY%2Fpreset%3Alisting%2Fplain%2Fe27f8cd15b99f143cb5c85f278783f8f-2902063257955829163.jpg&w=3840&q=100"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Corolla Cross 2020 1.8V</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <button class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </button>
+            <button class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </button>
+          </div>
+
+
+        </div>
+
+        <div class="list1">
+          <span class="new">Xe mới</span>
+          <div class="box1">
+            <img
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Flw_6I-t-HN_4sB_ETf_g1A8nYeNL1TmTQeqB-vSvTbY%2Fpreset%3Alisting%2Fplain%2Fe27f8cd15b99f143cb5c85f278783f8f-2902063257955829163.jpg&w=3840&q=100"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Corolla Cross 2020 1.8V</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <button class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </button>
+            <button class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </button>
+          </div>
+
+
+        </div>
+
+
+        <div class="list1">
+
+          <div class="box1">
+            <img
+              src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FjYAPH6vL5rxaNE_wd4nrC-bKC51NcEb06bluTUw7BRs%2Fpreset%3Alisting%2Fplain%2Fc4fd00065071c6026612ed1264520703-2878566763948818400.jpg&w=1920&q=75"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Toyota Vios 2019 1.5GT AT</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </div>
+            <div class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+        <div class="list1">
+
+          <div class="box1">
+            <img
+              src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FjYAPH6vL5rxaNE_wd4nrC-bKC51NcEb06bluTUw7BRs%2Fpreset%3Alisting%2Fplain%2Fc4fd00065071c6026612ed1264520703-2878566763948818400.jpg&w=1920&q=75"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Toyota Vios 2019 1.5GT AT</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </div>
+            <div class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </div>
+          </div>
+
+
+        </div>
+        <div class="list1">
+          <span class="new">Xe mới</span>
+          <div class="box1">
+            <img
+              src="https://lighthouse.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2Flw_6I-t-HN_4sB_ETf_g1A8nYeNL1TmTQeqB-vSvTbY%2Fpreset%3Alisting%2Fplain%2Fe27f8cd15b99f143cb5c85f278783f8f-2902063257955829163.jpg&w=3840&q=100"
+              alt="">
+          </div>
+          <div class="box2">
+
+            <div class="car1">
+              <h3>Corolla Cross 2020 1.8V</h3>
+            </div>
+            <div class="car2">
+              <span> 2019</span>
+              <span class="dot"></span>
+              <span> 1200000km </span>
+              <span class="dot"></span>
+              <span> Xăng </span>
+              <span class="dot"></span>
+              <span> Tự động </span>
+            </div>
+            <div class="car3">
+              <span> 405.000.000 đ</span>
+            </div>
+            <div class="car4">
+              <span> 22 giây trước </span>
+              <span class="dot"></span>
+              <span> Hà nội </span>
+            </div>
+
+          </div>
+          <div class="box3">
+            <div class="box gop-first">
+              <img
+                src="https://xe.chotot.com/_next/image?url=https%3A%2F%2Fcdn.chotot.com%2FkO4wRvWAGv_KVCrJPtwo-H-ouUNUuXQR7K8Um0hd22E%2Fpreset%3Ashopava%2Fplain%2F18fbd0a473be639302d0d8001dc0867b-2893636114533897527.jpg&w=1920&q=75"
+                alt="">
+            </div>
+            <div class="box gop-middle">
+              <span>FLEXCAR <i class="fa-solid fa-user"></i></span>
+            </div>
+
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <div class="box gop-three">
+              <span> 1 đã bán </span>
+              <span class="dot"></span>
+              <span> 8 đang bán </span>
+            </div>
+            <button class="box gop-last">
+              <i class="fa-solid fa-message"></i>
+              <!-- chat -->
+            </button>
+            <button class="box gop-cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+              <!-- chat -->
+            </button>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+    <!-- End main container -->
+    <footer>
+      <div class="container-fluid footer">
+        <div class="row">
+          <div class="col-sm-6 footer-address">
+            <h2>CÔNG TY TNHH 3 THÀNH VIÊN UTC</h2>
+            <p>Địa chỉ: Số 3 Đường Cầu Giấy Hà Nội</p>
+            <p>Email: <a href="mailto:>aaa@utc.vn">aaa@utc.vn</a></p>
+            <p>Số điện thoại: <a href="tel:0912269166">0912269166</a></p>
+            <p>Mã số doanh nghiệp: 0100110100. Ngày cấp: 01/01/2024. Nơi cấp:
+              SKH &amp; ĐT TP. Hà Nội</p>
+            <div class="footer-social" bis_skin_checked="1">
+              <span>
+                Theo dõi chúng tôi qua
+                <i class="ti-facebook"></i>
+                <i class="ti-youtube"></i>
+                <i class="ti-twitter"></i>
+              </span>
+              <a href="#" class="social-link social-link-facebook"></a>
+              <a href="#" class="social-link social-link-youtube"></a>
+            </div>
+
+          </div>
+          <div class="col-sm-2">
+            <h3>Hỗ trợ khách hàng</h3>
+            <div>
+              <ul>
+                <li><a href="#">Tôi là người Bán</a></li>
+                <li><a href="#">Tôi là người Mua</a></li>
+                <li><a href="#">Quy định cần biết</a></li>
+                <li><a href="#">Liên hệ hỗ trợ</a></li>
+                <li><a href="#">Câu hỏi thường gặp</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <h3>Dịch vụ</h3>
+            <div>
+              <ul>
+                <li><a href="#">Kiểm định</a></li>
+                <li><a href="#">Đăng kiểm</a></li>
+                <li><a href="#">Hoàn cải xe</a></li>
+                <li><a href="#">Rút hồ sơ xe</a></li>
+                <li><a href="#">Bảo hiểm</a></li>
+                <li><a href="#">Tín dụng</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <h3>Tin tức &amp; Tư vấn</h3>
+            <div>
+              <ul>
+                <li><a href="#">Tin công nghệ</a></li>
+                <li><a href="#">Bảng giá xe ô tô</a></li>
+                <li><a href="#">Tin khuyến mại</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-subscribe">
+          <h3>Đăng ký nhận những tin tức mới nhất của chúng tôi</h3>
+          <form action="">
+            <input type="email" placeholder="Địa chỉ email"
+              class="subcribe-email">
+            <button type="submit" onclick="emailValidate()">Đăng ký</button>
+          </form>
+          <p id="error-message"></p>
+        </div>
+        <div class="footer-bottom-copyright"> Copyright © 2024 Chotot. All
+          rights reserved</div>
+      </div>
+    </footer>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade add-cart-modal" id="formModal" tabindex="-1"
+      aria-labelledby="formModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="formModalLabel">Đặt xe</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Form -->
+            <form>
+              <!-- Họ tên -->
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Họ tên</label>
+                <input type="text" class="form-control" id="fullName"
+                  placeholder="Nhập họ tên">
+              </div>
+              <!-- Địa chỉ -->
+              <div class="mb-3">
+                <label for="address" class="form-label">Địa chỉ</label>
+                <input type="text" class="form-control" id="address"
+                  placeholder="Nhập địa chỉ">
+              </div>
+              <!-- Số điện thoại -->
+              <div class="mb-3">
+                <label for="phone" class="form-label">Số điện thoại</label>
+                <input type="tel" class="form-control" id="phone"
+                  placeholder="Nhập số điện thoại">
+              </div>
+
+              <!-- Giới tính -->
+              <div class="mb-3">
+                <label class="form-label">Giới tính</label><br>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="gender"
+                    id="genderAnh" value="anh" checked>
+                  <label class="form-check-label" for="genderAnh">Anh</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="gender"
+                    id="genderChi" value="chi">
+                  <label class="form-check-label" for="genderChi">Chị</label>
+                </div>
+              </div>
+
+              <!-- Phương thức thanh toán -->
+              <div class="mb-3">
+                <label class="form-label">Phương thức thanh toán</label><br>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio"
+                    name="paymentMethod" id="paymentBank" value="chuyen-khoan"
+                    checked>
+                  <label class="form-check-label" for="paymentBank">Chuyển
+                    khoản</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio"
+                    name="paymentMethod" id="paymentCash" value="tien-mat">
+                  <label class="form-check-label" for="paymentCash">Tiền
+                    mặt</label>
+                </div>
+              </div>
+
+              <!-- Nút submit -->
+              <div class="modal-footer">
+
+                <button type="submit" class="btn btn-primary">Xác nhận</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+
+      $(document).ready(function () {
+        // JavaScript để mở modal cho tất cả các nút có lớp gop-cart
+        const buttons = document.querySelectorAll('.gop-cart');
+        buttons.forEach(button => {
+          button.addEventListener('click', function () {
+            const modal = new bootstrap.Modal(document.getElementById('formModal'));
+            modal.show();
+          });
+        });
+      });
+    </script>
+    <!-- end modal -->
+
+    <!-- <script src="./assets/home/js/script.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+</body>
+
+</html>
