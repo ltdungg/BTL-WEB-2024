@@ -275,7 +275,7 @@ section {
 }
 .block14-tab a:hover {
     color: #ff9500;
-    outline-color: #ff9500;
+    border-color: #ff9500;
 }
 .block14-nav h2 {
     margin: 0 0 24px;
