@@ -188,6 +188,7 @@ section {
 #slider {
     position: relative;
     padding-top: 50%;
+    margin-top: -10px;
     background: url(/assets/banxe/img/images.jpg) top center / cover no-repeat !important;
 }    
 #slider .text-content {
