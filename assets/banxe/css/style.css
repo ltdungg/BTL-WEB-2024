@@ -188,7 +188,7 @@ section {
 #slider {
     position: relative;
     padding-top: 50%;
-    background-color: rgb(255, 225, 134);
+    background: url(/assets/banxe/img/images.jpg) top center / cover no-repeat;
 }    
 #slider .text-content {
     position: absolute;
